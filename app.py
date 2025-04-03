@@ -10,7 +10,7 @@ la=st.number_input('Enter Loan Amount in thousands')
 
 if st.button('PREDICT'):
     prediction=clf.predict([[g,m,ai,la]])
-    if prediction ='Y':
+    if prediction =='Y':
         st.text('LOAN IS APPROVED')
     else:
         st.text('LOAN IS REJECTED')
