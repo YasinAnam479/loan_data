@@ -1,4 +1,4 @@
-import Streamlit as st
+import streamlit as st
 import joblib
 
 clf=joblib.load("Model.joblib")
